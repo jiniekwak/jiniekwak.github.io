@@ -1,0 +1,128 @@
+body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+
+.landing {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #21181f;
+  height: 700px;
+}
+
+.landing a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.landing a:link {
+  color: white;
+}
+
+.landing a:active {
+  color: white;
+}
+.landing a:visited {
+  color: white;
+}
+.landing a:hover {
+  color: #fc2d4a;
+}
+
+h2 {
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.column-left {
+  background-color: #21181f;
+  float: left;
+  width: 12%;
+  height: 878px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 22px;
+  text-align: right;
+}
+
+.column-center {
+  padding-top: 100px;
+  background-color: #392134;
+  display: inline-block;
+  width: 15%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.column-right {
+  background: url('../images/stage.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  float: right;
+  width: 73%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+}
+
+ul {
+  font-family: arial;
+  color: white;
+  text-transform: uppercase;
+  list-style: none;
+  padding-top: 100px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+li {
+  padding: 10px;
+  /*background-color: black;*/
+  margin: 5px;
+  text-align: center;
+}
+
+#viewbox {
+  height: 500px;
+  width: 500px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  margin-top: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+img.monster{
+  horizontal
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  max-height: 300px;
+}
+
+.options {
+  color: white;
+  height: 110px;
+  width: 110px;
+  background-color: black;
+}
