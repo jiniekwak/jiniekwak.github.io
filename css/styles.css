@@ -126,3 +126,23 @@ img.monster{
   width: 110px;
   background-color: black;
 }
+
+#body{
+  z-index: 1;
+}
+
+#eyes {
+  z-index: 3;
+}
+
+#mouth {
+  z-index: 2;
+}
+
+#arms {
+  z-index: 0;
+}
+
+#legs{
+  z-index: -1;
+}

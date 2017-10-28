@@ -8,18 +8,18 @@ $(function(){
     clearActiveClasses();
     $("#body").attr("class", "active");
 
-    console.log('clicked body category option');
-    $("#option1").css({background: "url('images/body/Monster1Body.png')",
+    // console.log('clicked body category option');
+    $("#option1").css({background: "url('images/body/option1.png')",
                         backgroundSize: 'contain'});
-    $("#option2").css({background: "url('images/body/Monster2Body.png')",
+    $("#option2").css({background: "url('images/body/option2.png')",
                         backgroundSize: 'contain'});
-    $("#option3").css({background: "url('images/body/Monster3Body.png')",
+    $("#option3").css({background: "url('images/body/option3.png')",
                         backgroundSize: 'contain'});
-    $("#option4").css({background: "url('images/body/Monster4Body.png')",
+    $("#option4").css({background: "url('images/body/option4.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/body/Monster5Body.png')",
+    $("#option5").css({background: "url('images/body/option5.png')",
                         backgroundSize: 'contain'});
-    $("#option6").css({background: "url('images/body/Monster6Body.png')",
+    $("#option6").css({background: "url('images/body/option6.png')",
                         backgroundSize: 'contain'});
   }
 
@@ -29,18 +29,18 @@ $(function(){
     clearActiveClasses();
     $("#eyes").attr("class", "active");
 
-    console.log('clicked eyes category option');
-    $("#option1").css({background: "url('images/eyes/Monster1Eyes.png')",
+    // console.log('clicked eyes category option');
+    $("#option1").css({background: "url('images/eyes/option1.png')",
                         backgroundSize: 'contain'});
-    $("#option2").css({background: "url('images/eyes/Monster2Eyes.png')",
+    $("#option2").css({background: "url('images/eyes/option2.png')",
                         backgroundSize: 'contain'});
-    $("#option3").css({background: "url('images/eyes/Monster3Eyes.png')",
+    $("#option3").css({background: "url('images/eyes/option3.png')",
                         backgroundSize: 'contain'});
-    $("#option4").css({background: "url('images/eyes/Monster4Eyes.png')",
+    $("#option4").css({background: "url('images/eyes/option4.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/eyes/Monster5Eyes.png')",
+    $("#option5").css({background: "url('images/eyes/option5.png')",
                         backgroundSize: 'contain'});
-    $("#option6").css({background: "url('images/eyes/Monster6Eyes.png')",
+    $("#option6").css({background: "url('images/eyes/option6.png')",
                         backgroundSize: 'contain'});
   }
 
@@ -50,18 +50,18 @@ $(function(){
     clearActiveClasses();
     $("#mouth").addClass("active");
 
-    console.log('clicked mouth category option');
-    $("#option1").css({background: "url('images/mouth/Monster1Mouth.png')",
+    // console.log('clicked mouth category option');
+    $("#option1").css({background: "url('images/mouth/option1.png')",
                         backgroundSize: 'contain'});
-    $("#option2").css({background: "url('images/mouth/Monster2Mouth.png')",
+    $("#option2").css({background: "url('images/mouth/option2.png')",
                         backgroundSize: 'contain'});
-    $("#option3").css({background: "url('images/mouth/Monster3Mouth.png')",
+    $("#option3").css({background: "url('images/mouth/option3.png')",
                         backgroundSize: 'contain'});
-    $("#option4").css({background: "url('images/mouth/Monster4Mouth.png')",
+    $("#option4").css({background: "url('images/mouth/option4.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/mouth/Monster5Mouth.png')",
+    $("#option5").css({background: "url('images/mouth/option5.png')",
                         backgroundSize: 'contain'});
-    $("#option6").css({background: "url('images/mouth/Monster6Mouth.png')",
+    $("#option6").css({background: "url('images/mouth/option6.png')",
                         backgroundSize: 'contain'});
   }
 
@@ -71,18 +71,18 @@ $(function(){
     clearActiveClasses();
     $("#arms").addClass("active");
 
-    console.log('clicked arms category option');
-    $("#option1").css({background: "url('images/arms/Monster1Arms.png')",
+    // console.log('clicked arms category option');
+    $("#option1").css({background: "url('images/arms/option1.png')",
                         backgroundSize: 'contain'});
-    $("#option2").css({background: "url('images/arms/Monster2Arms.png')",
+    $("#option2").css({background: "url('images/arms/option2.png')",
                         backgroundSize: 'contain'});
-    $("#option3").css({background: "url('images/arms/Monster3Arms.png')",
+    $("#option3").css({background: "url('images/arms/option3.png')",
                         backgroundSize: 'contain'});
-    $("#option4").css({background: "url('images/arms/Monster4Arms.png')",
+    $("#option4").css({background: "url('images/arms/option4.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/arms/Monster5Arms.png')",
+    $("#option5").css({background: "url('images/arms/option5.png')",
                         backgroundSize: 'contain'});
-    $("#option6").css({background: "url('images/arms/Monster6Arms.png')",
+    $("#option6").css({background: "url('images/arms/option6.png')",
                         backgroundSize: 'contain'});
   }
 
@@ -92,19 +92,18 @@ $(function(){
     clearActiveClasses();
     $("#legs").addClass("active");
 
-
-    console.log('clicked legs category option');
-    $("#option1").css({background: "url('images/legs/Monster1Legs.png')",
+    // console.log('clicked legs category option');
+    $("#option1").css({background: "url('images/legs/option1.png')",
                         backgroundSize: 'contain'});
-    $("#option2").css({background: "url('images/legs/Monster2Legs.png')",
+    $("#option2").css({background: "url('images/legs/option2.png')",
                         backgroundSize: 'contain'});
-    $("#option3").css({background: "url('images/legs/Monster3Legs.png')",
+    $("#option3").css({background: "url('images/legs/option3.png')",
                         backgroundSize: 'contain'});
-    $("#option4").css({background: "url('images/legs/Monster4Legs.png')",
+    $("#option4").css({background: "url('images/legs/option4.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/legs/Monster5Legs.png')",
+    $("#option5").css({background: "url('images/legs/option5.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/legs/Monster6Legs.png')",
+    $("#option5").css({background: "url('images/legs/option6.png')",
                         backgroundSize: 'contain'});
   }
 
@@ -121,105 +120,33 @@ $(function(){
 
   // SELECT THE BODY CATEGORY, SELECT AN OPTION / OPTIONS DISPLAYS IN STAGE AREA
 
-  $('#option1').click(displayOptionOne);
+  $(".options").click(placePart);
 
-  function displayOptionOne(){
-    console.log('clicked category option 1');
 
-    // identify which category is actives8lkwood.
+  function placePart() {
+    // console.log("inside placePart");
+
+    // console.log($(this).attr("id"));
     
-    // $(".category").find("li[class='active']").attr("id")
 
-    $("#viewbox").html('<img src="images/body/Monster1Body.png" height="500px" width="500px"/>');
+    var activeCategory = $(".category").find("li[class='active']").attr("id");
+    var selectedOption = $(this).attr("id");
+
+    // console.log(activeCategory);
+
+    var imgSrc = '<img src="images/' + activeCategory + '/' + selectedOption + '.png"  height="500px" width="500px"/>'
+
+     $("#viewbox").html(imgSrc);
+  
   }
 
-  $('#option2').click(displayOptionTwo);
+// CODE FROM HTML USING Z-INDEX LAYERS
+          // <div style="position:absolute; z-index:0;">
+          //   <img alt="armslayer" src="images/arms/option1.png" width=500px />
+          // </div>
 
-  function displayOptionTwo(){
-    console.log('clicked category option 2');
-    $("#viewbox").html('<img src="images/body/Monster2Body.png" height="500px" width="500px"/>');
 
-  }
 
-  $('#option3').click(displayOptionThree);
-
-  function displayOptionThree(){
-    console.log('clicked category option 3');
-    $("#viewbox").html('<img src="images/body/Monster3Body.png" height="500px" width="500px"/>');
-
-  }
-
-  $('#option4').click(displayOptionFour);
-
-  function displayOptionFour(){
-    console.log('clicked category option 4');
-    $("#viewbox").html('<img src="images/body/Monster4Body.png" height="500px" width="500px"/>');
-
-  }
-
-  $('#option5').click(displayOptionFive);
-
-  function displayOptionFive(){
-    console.log('clicked category option 5');
-    $("#viewbox").html('<img src="images/body/Monster5Body.png" height="500px" width="500px"/>');
-
-  }
-
-  $('#option6').click(displayOptionSix);
-
-  function displayOptionSix(){
-    console.log('clicked category option 6');
-    $("#viewbox").html('<img src="images/body/Monster6Body.png" height="500px" width="500px"/>');
-
-  }
-
-  // SELECT THE EYES CATEGORY, SELECT AN OPTION / OPTIONS DISPLAYS IN STAGE AREA
-
-  $('#option2').click(displayOptionOne);
-
-  function displayOptionOne(){
-    console.log('clicked category option 1');
-    $("#viewbox").html('<img src="images/eyes/Monster1Eyes.png" height="500px" width="500px"/>');
-  }
-
-  $('#option2').click(displayOptionTwo);
-
-  function displayOptionTwo(){
-    console.log('clicked category option 2');
-    $("#viewbox").html('<img src="images/eyes/Monster2Eyes.png" height="500px" width="500px"/>');
-  }
-
-  $('#option3').click(displayOptionThree);
-
-  function displayOptionThree(){
-    console.log('clicked category option 3');
-    $("#viewbox").html('<img src="images/eyes/Monster3Eyes.png" height="500px" width="500px"/>');
-
-  }
-
-  $('#option4').click(displayOptionFour);
-
-  function displayOptionFour(){
-    console.log('clicked category option 4');
-    $("#viewbox").html('<img src="images/eyes/Monster4Eyes.png" height="500px" width="500px"/>');
-
-  }
-
-  $('#option5').click(displayOptionFive);
-
-  function displayOptionFive(){
-    console.log('clicked category option 5');
-    $("#viewbox").html('<img src="images/eyes/Monster5Eyes.png" height="500px" width="500px"/>');
-
-  }
-
-  $('#option6').click(displayOptionSix);
-
-  function displayOptionSix(){
-    console.log('clicked category option 6');
-    $("#viewbox").html('<img src="images/eyes/Monster6Eyes.png" height="500px" width="500px"/>');
-
-  }
   // CLEAR ACTIVE CLASSES 
 
   function clearActiveClasses() {
