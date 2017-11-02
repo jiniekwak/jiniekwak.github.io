@@ -4,8 +4,13 @@ $(function(){
 
   $('#body').click(displayBodies);
 
+  // function slideMenu(){
+  //   $(".column-center").css(".show");
+  // }
   function displayBodies(){
+    
     clearActiveClasses();
+    
     $("#body").attr("class", "active");
 
     // console.log('clicked body category option');
@@ -103,18 +108,9 @@ $(function(){
                         backgroundSize: 'contain'});
     $("#option5").css({background: "url('images/legs/option5.png')",
                         backgroundSize: 'contain'});
-    $("#option5").css({background: "url('images/legs/option6.png')",
+    $("#option6").css({background: "url('images/legs/option6.png')",
                         backgroundSize: 'contain'});
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -124,30 +120,43 @@ $(function(){
 
 
   function placePart() {
-    // console.log("inside placePart");
-
-    // console.log($(this).attr("id"));
-    
 
     var activeCategory = $(".category").find("li[class='active']").attr("id");
     var selectedOption = $(this).attr("id");
 
-    // console.log(activeCategory);
-
     var imgSrc = '<img src="images/' + activeCategory + '/' + selectedOption + '.png"  height="500px" width="500px"/>'
 
-     $("#viewbox").html(imgSrc);
-  
+    var zIndex = zIndexOfPart(activeCategory);
+   
+    var part = createPart(imgSrc, zIndex);
+    
+    $("#viewbox").append(part);
+  }
+
+  function createPart(imgSrc, zIndex) {
+    
+    return  "<div style='position:absolute; z-index:" + zIndex + ";'>" + imgSrc +  "</div>";
   }
 
 // CODE FROM HTML USING Z-INDEX LAYERS
-          // <div style="position:absolute; z-index:0;">
-          //   <img alt="armslayer" src="images/arms/option1.png" width=500px />
-          // </div>
+
+  function zIndexOfPart(activeCategory) {
+
+    if (activeCategory === "eyes") {
+      return 5;
+    } else if (activeCategory === "mouth") {
+      return 4;
+    } else if (activeCategory === "body") {
+      return 3;
+    } else if (activeCategory === "legs") {
+      return 2;
+    } else {
+      return 1;
+    }
+  }
 
 
-
-  // CLEAR ACTIVE CLASSES 
+  $('#clearall').click(function() { location.reload(); }); 
 
   function clearActiveClasses() {
     $("#body").removeClass("active");
@@ -157,7 +166,6 @@ $(function(){
     $("#legs").removeClass("active");
   }
 
-
-
+  // $('.center-column').css("overflow-y", "scroll");
 
 });

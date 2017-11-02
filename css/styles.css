@@ -13,28 +13,37 @@ body {
   height: 700px;
 }
 
-.landing a {
+a {
   text-decoration: none;
   font-family: sans-serif;
 }
 
-.landing a:link {
+a:link {
   color: white;
 }
 
-.landing a:active {
+a:active {
   color: white;
 }
-.landing a:visited {
+
+a:visited {
   color: white;
 }
-.landing a:hover {
+a:hover {
   color: #fc2d4a;
 }
 
 h2 {
   padding: 5px;
   text-transform: uppercase;
+}
+
+h3 {
+  padding-top: 50px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: gray;
 }
 
 .container {
@@ -45,7 +54,7 @@ h2 {
   background-color: #21181f;
   float: left;
   width: 12%;
-  height: 878px;
+  height: 678px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,29 +63,47 @@ h2 {
 }
 
 .column-center {
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 3px;
   background-color: #392134;
   display: inline-block;
-  width: 15%;
-  height: 800px;
+  width: 11%;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+/*  visibility: hidden;
+  transition: visibility 0s 0.6s;
+  transition: 1s;
+  z-index: -1;
+  transform: translateX(-12em);*/
 }
+
+/*.show {
+  transform: translateX(0em);
+  transition: 1s;
+
+}*/
 
 .column-right {
   background: url('../images/stage.png');
   background-repeat: no-repeat;
   background-size:cover;
   float: right;
-  width: 73%;
-  height: 900px;
+  width: 78%;
+  height: 700px;
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 footer {
+  padding-left:15px; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: gray;
   background-color: black;
   width: 100%;
 }
@@ -88,9 +115,6 @@ ul {
   list-style: none;
   padding-top: 100px;
   padding-right: 30px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
 }
 
 li {
@@ -103,46 +127,22 @@ li {
 #viewbox {
   height: 500px;
   width: 500px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-  margin-top: 100px;
+  margin-top: 25px;
   padding: 10px;
   display: flex;
   align-items: center;
-}
-
-img.monster{
-  horizontal
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  max-height: 300px;
 }
 
 .options {
   color: white;
   height: 110px;
   width: 110px;
-  background-color: black;
+  background-color: #392134;
 }
 
-#body{
-  z-index: 1;
-}
-
-#eyes {
-  z-index: 3;
-}
-
-#mouth {
-  z-index: 2;
-}
-
-#arms {
-  z-index: 0;
-}
-
-#legs{
-  z-index: -1;
+#clearall {
+  font-family: sans-serif;
+  background-color: white;
+  color: gray;
+  padding: 10px;
 }
